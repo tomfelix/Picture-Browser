@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+}
+
+.App-header {
+  background-color: #222;
+  height: 15vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+}
+
+nav {
+  flex: 1;
+  background-color: #3d3d3d;
+  padding: 20px;
+  min-height: 100vh;
+  border-right: 3px solid black;
+  color: white;
+}
+
+article {
+  flex: 12;
+  background-color: #a8a8a8;
+  padding: 10px;
+}
